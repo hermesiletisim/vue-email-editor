@@ -21994,13 +21994,13 @@ registerRuntimeCompiler(compileToFunction);
 
 // EXTERNAL MODULE: external {"commonjs":"vue","commonjs2":"vue","root":"Vue"}
 var external_commonjs_vue_commonjs2_vue_root_Vue_ = __webpack_require__(7203);
-;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/EmailEditor.vue?vue&type=template&id=eb864766&scoped=true
+;// CONCATENATED MODULE: ./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib/index.js??clonedRuleSet-82.use[1]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[3]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/EmailEditor.vue?vue&type=template&id=30b8ccc4&scoped=true
 
 
-const _withScopeId = n => (_pushScopeId("data-v-eb864766"), n = n(), _popScopeId(), n);
+const _withScopeId = n => (_pushScopeId("data-v-30b8ccc4"), n = n(), _popScopeId(), n);
 
 const _hoisted_1 = ["id"];
-function EmailEditorvue_type_template_id_eb864766_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
+function EmailEditorvue_type_template_id_30b8ccc4_scoped_true_render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,external_commonjs_vue_commonjs2_vue_root_Vue_.openBlock)(), (0,external_commonjs_vue_commonjs2_vue_root_Vue_.createElementBlock)("div", {
     id: $options.id,
     class: "unlayer-editor",
@@ -22009,7 +22009,7 @@ function EmailEditorvue_type_template_id_eb864766_scoped_true_render(_ctx, _cach
     })
   }, null, 12, _hoisted_1);
 }
-;// CONCATENATED MODULE: ./src/components/EmailEditor.vue?vue&type=template&id=eb864766&scoped=true
+;// CONCATENATED MODULE: ./src/components/EmailEditor.vue?vue&type=template&id=30b8ccc4&scoped=true
 
 ;// CONCATENATED MODULE: ./src/components/loadScript.js
 
@@ -22087,6 +22087,7 @@ let lastEditorId = 0;
   },
 
   mounted() {
+    console.log("mounted çalıştı");
     loadScript(this.loadEditor.bind(this));
   },
 
@@ -22142,10 +22143,10 @@ let lastEditorId = 0;
 });
 ;// CONCATENATED MODULE: ./src/components/EmailEditor.vue?vue&type=script&lang=js
  
-;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-54.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-54.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-54.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/EmailEditor.vue?vue&type=style&index=0&id=eb864766&scoped=true&lang=css
+;// CONCATENATED MODULE: ./node_modules/mini-css-extract-plugin/dist/loader.js??clonedRuleSet-54.use[0]!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-54.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-54.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/EmailEditor.vue?vue&type=style&index=0&id=30b8ccc4&scoped=true&lang=css
 // extracted by mini-css-extract-plugin
 
-;// CONCATENATED MODULE: ./src/components/EmailEditor.vue?vue&type=style&index=0&id=eb864766&scoped=true&lang=css
+;// CONCATENATED MODULE: ./src/components/EmailEditor.vue?vue&type=style&index=0&id=30b8ccc4&scoped=true&lang=css
 
 // EXTERNAL MODULE: ./node_modules/vue-loader/dist/exportHelper.js
 var exportHelper = __webpack_require__(1620);
@@ -22157,7 +22158,7 @@ var exportHelper = __webpack_require__(1620);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(EmailEditorvue_type_script_lang_js, [['render',EmailEditorvue_type_template_id_eb864766_scoped_true_render],['__scopeId',"data-v-eb864766"]])
+const __exports__ = /*#__PURE__*/(0,exportHelper/* default */.Z)(EmailEditorvue_type_script_lang_js, [['render',EmailEditorvue_type_template_id_30b8ccc4_scoped_true_render],['__scopeId',"data-v-30b8ccc4"]])
 
 /* harmony default export */ var EmailEditor = (__exports__);
 ;// CONCATENATED MODULE: ./src/components/index.js
