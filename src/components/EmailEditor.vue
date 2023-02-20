@@ -32,6 +32,7 @@ export default {
     },
   },
   mounted() {
+    console.log("mounted çalıştı")
     loadScript(this.loadEditor.bind(this));
   },
   methods: {
