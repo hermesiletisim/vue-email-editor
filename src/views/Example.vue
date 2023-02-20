@@ -2,7 +2,7 @@
   <div id="example">
     <div class="container">
       <div id="bar">
-        <h1>Vue Email Editor (Demo)</h1>
+        <h1>Vue Ahmet Email Editor (Demo)</h1>
 
         <button v-on:click="saveDesign">Save Design</button>
         <button v-on:click="exportHtml">Export HTML</button>
@@ -71,7 +71,7 @@ html, body {
 
 #bar {
   flex: 1;
-  background-color: #40B883;
+  background-color: #6c0f6a !important;
   color: #FFF;
   padding: 10px;
   display: flex;
